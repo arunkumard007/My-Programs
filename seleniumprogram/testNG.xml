@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="testNG.Listeners"></listener>
+</listeners>
+<test name="Test Cases">
+<classes>
+<class name="testNG.Sample1"></class>
+</classes>
+</test>
+</suite>
+
+
+<!-- <class name="testNG.dependenciesManagement"></class>
+<class name="testNG.Skipatestcase"></class>
+<class name="testNG.tartACar"></class>
+<class name="testNG.TestSuite"></class> -->
+
+
+
+
+<!-- <groups>
+<run>
+<include name="Oneplus"></include>
+<include name="Samsung"></include>
+</run>
+</groups>
+<class name="testNG.groupings"></class> -->
+
+
+
+<!-- <parameter name= "Name" value="Arun"></parameter> -->
+
+
+<!-- 
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2"> -->
+
+
+<!-- <listeners>
+<listener class-name="testNG.Listeners"></listener>
+</listeners>
+<class name="testNG.Sample1"></class> -->
